@@ -1,0 +1,2 @@
+# Generated using pip3 freeze command on python3.8
+six==1.15.0
