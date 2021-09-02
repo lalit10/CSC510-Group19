@@ -1,8 +1,10 @@
-#This file will contain test cases.
-#import pytest
 import sys
-#sys.path.append('/CSC510-GROUP19/code/')
-sys.path.insert(1,'/CSC510-GROUP19/code/')
+import os
+sys.path.insert(1,'../../CSC510-GROUP19/code/')
+parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+new_path = os.path.join(parentdir, "code", "")
+sys.path.insert(1,parentdir)
+sys.path.insert(2,new_path)
 import fibonacci
 
 def func(x):
