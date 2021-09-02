@@ -1,4 +1,5 @@
-# Contributing to Sample application
+# Contributing to sample application
+The following contribution instructions have been referenced from VS Code repository(https://github.com/microsoft/vscode/blob/main/CONTRIBUTING.md).
 
 Welcome, and thank you for your interest in contributing to our sample application!
 
