@@ -11,6 +11,6 @@ def testFibb(): #Function returns percentage of cases that are passing
         if testOutput[i] ==  fibonacci .fib(testInput[i]):
             success += 1
 
-    print(success*100/len(testOutput))
+    assert success == len(testOutput)
 
 testFibb()
