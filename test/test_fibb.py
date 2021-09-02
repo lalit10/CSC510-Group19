@@ -1,5 +1,11 @@
 import sys
-sys.path.append('/CSC510-GROUP19/code/')
+import os
+## Code to run fib module from test
+parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+new_path = os.path.join(parentdir, "code", "")
+print("New path:",new_path)
+sys.path.insert(1,new_path)
+
 import fibonacci 
 
 
